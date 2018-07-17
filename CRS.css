@@ -6,7 +6,7 @@
     margin-right: auto;
 }
 
-p {
+.carousel-caption  {
 	font-size: inherit;
 	margin-bottom: 20px;
 }
