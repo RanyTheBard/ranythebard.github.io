@@ -11,7 +11,7 @@
 });
 
 $(function () {
-    var $element = $('.carousel-control-prev');
+    var $element = $('.carousel-control-prev-icon');
     setInterval(function () {
         $element.fadeIn(1000, function () {
             $element.fadeOut(1500, function () {
@@ -22,7 +22,7 @@ $(function () {
 });
 
 $(function () {
-    var $element = $('.carousel-control-next');
+    var $element = $('.carousel-control-next-icon');
     setInterval(function () {
         $element.fadeIn(1000, function () {
             $element.fadeOut(1500, function () {
