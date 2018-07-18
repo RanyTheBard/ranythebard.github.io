@@ -9,3 +9,25 @@
   allowPageScroll:"vertical"
 
 });
+
+$(function () {
+    var $element = $('.carousel-control-prev');
+    setInterval(function () {
+        $element.fadeIn(1000, function () {
+            $element.fadeOut(1500, function () {
+                $element.fadeIn(1500)
+            });
+        });
+    }, 5000);
+});
+
+$(function () {
+    var $element = $('.carousel-control-next');
+    setInterval(function () {
+        $element.fadeIn(1000, function () {
+            $element.fadeOut(1500, function () {
+                $element.fadeIn(1500)
+            });
+        });
+    }, 5000);
+});
